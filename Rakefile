@@ -7,8 +7,8 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "code_statistics"
     gem.summary = %Q{Making a gem of the normal rails rake stats method, to make it more robust and work on non rails projects}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "Danmayer@gmail.com"
+    gem.description = %Q{"This is a port of the rails 'rake stats' method so it can be made more robust and work for non rails projects. New features may eventually be added as well."}
+    gem.email = "dan@devver.net"
     gem.homepage = "http://github.com/danmayer/code_statistics"
     gem.authors = ["Dan Mayer"]
     gem.add_development_dependency "thoughtbot-shoulda"

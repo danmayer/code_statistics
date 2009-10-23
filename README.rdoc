@@ -1,6 +1,6 @@
 = code_statistics
 
-Description goes here.
+This is a port of the rails 'rake stat' so it can be used on none rails projects and have it's features slowly expanded. 
 
 == Note on Patches/Pull Requests
  

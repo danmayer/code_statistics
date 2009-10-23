@@ -11,6 +11,6 @@ STATS_DIRECTORIES = [
  
 desc "Report code statistics (KLOCs, etc) from the application"
 task :stats do
-  require 'lib/code_statistics'
+  require File.join(File.dirname(__FILE__), '..', 'code_statistics', 'code_statistics')
   CodeStatistics::CodeStatistics.new(*STATS_DIRECTORIES).to_s
 end
