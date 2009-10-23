@@ -23,7 +23,9 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "code_statistics.gemspec",
      "lib/code_statistics.rb",
+     "lib/code_statistics/code_statistics.rb",
      "lib/tasks/code_stats.rb",
      "test/code_statistics_test.rb",
      "test/test_helper.rb"
