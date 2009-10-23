@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'rake'
+require 'lib/tasks/code_stats'
 
 begin
   require 'jeweler'
